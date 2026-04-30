@@ -2,6 +2,9 @@
 
 **Smart Grocer** is a Streamlit application designed to help you find the lowest prices for your grocery list at nearby Kroger-family stores. Simply enter your zip code and grocery list, and the app will optimize your shopping trip based on your preferred strategy!
 
+<img width="1732" height="1491" alt="smart_grocer_prototypeP1" src="https://github.com/user-attachments/assets/dc75aff1-1f18-40ba-bbfe-e6fe34f269fc" />
+<img width="1454" height="680" alt="smart_grocer_prototypeP2" src="https://github.com/user-attachments/assets/ad1f1170-a846-405e-ac5d-932e36f73a40" />
+
 ## Features
 
 - **Location-Based Search:** Find stores near your zip code.
