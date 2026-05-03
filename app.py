@@ -13,15 +13,15 @@ CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 st.set_page_config(page_title="Smart Grocer", page_icon="🛒", layout="centered")
 
 # 2. Header Section
-st.title("🛒 Smart Grocer")
+st.title("Smart Grocer")
 st.markdown("Find the lowest prices for your grocery list at nearby Kroger-family stores.")
 st.divider()
 
 # 3. Input Form
 with st.form("grocery_form"):
-    zip_code = st.text_input("📍 Zip Code", placeholder="e.g. 57104", max_chars=5)
+    zip_code = st.text_input("**Zip Code**", placeholder="e.g. 57104", max_chars=5)
     
-    st.markdown("**📝 Your Grocery List**")
+    st.markdown("**Your Grocery List**")
     st.caption("Enter one item per line. Be as specific as possible for better results.")
     
     grocery_input = st.text_area(
@@ -32,7 +32,7 @@ with st.form("grocery_form"):
     )
     
     # NEW FEATURE: The Strategy Toggle
-    st.markdown("**🎯 Shopping Strategy**")
+    st.markdown("**Shopping Strategy**")
     optimization_type = st.radio(
         "Optimization",
         ["Cheapest Overall Cart (One Store)", "Absolute Lowest Prices (Multiple Stores)"],
